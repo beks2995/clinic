@@ -1,0 +1,108 @@
+.appointment{
+  padding: 103px 0 84px;
+  background: url("../img/home/appointment/bg.png") center/cover;
+  &__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 63px;
+    text-align: center;
+  }
+  .form{
+    max-width: 947px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    label{
+      width: 440px;
+      input{
+        width: 100%;
+        padding: 15px;
+        background: #819BCA;
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #F9F9F9;
+        &::-webkit-input-placeholder{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          color: #F9F9F9;
+        }
+      }
+
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      outline: 0;
+      box-shadow: none;
+      border: 0 !important;
+      background-color: #819BCA;
+      background-image: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #F9F9F9;
+    }
+    /* Remove IE arrow */
+    select::-ms-expand {
+      display: none;
+    }
+    /* Custom Select */
+    .select {
+      position: relative;
+      display: flex;
+      background: #819BCA;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    select {
+      flex: 1;
+      padding: 15px;
+      color: #fff;
+      cursor: pointer;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+    }
+    /* Arrow */
+    .select::after {
+      content: '\23F7';
+      color: #ffffff;
+      position: absolute;
+      top: 13px;
+      right: 15px;
+      cursor: pointer;
+      pointer-events: none;
+    }
+    .submtBtn{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      background: #2694A3;
+      border-radius: 2px;
+      border: none;
+      width: 219px;
+      height: 61px;
+      margin: 60px auto 0;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

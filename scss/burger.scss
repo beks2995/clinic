@@ -1,0 +1,54 @@
+@mixin BtnLine {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  transition: 0.6s all;
+}
+
+.burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  &-line {
+    width: 28px;
+    height: 2px;
+    background: #ffffff;
+    position: relative;
+    transition: 0.4s all;
+
+    &:before {
+      @include BtnLine;
+      top: -9px;
+      left: 0;
+    }
+
+    &:after {
+      @include BtnLine;
+      bottom: -9px;
+      left: 0;
+    }
+
+    &.active {
+      background: none;
+
+      &:before {
+        top: 0;
+        left: 0;
+        transform: rotate(45deg);
+
+      }
+
+      &:after {
+        bottom: 0;
+        left: 0;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

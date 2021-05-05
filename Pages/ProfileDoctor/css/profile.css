@@ -1,0 +1,170 @@
+.docProfile {
+  padding: 50px 0 165px; }
+  .docProfile__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #394E5E;
+    margin-bottom: 40px; }
+  .docProfile .other {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #3E3E3E;
+    margin-bottom: 30px; }
+  .docProfile-about {
+    margin-bottom: 80px; }
+    .docProfile-about .img {
+      position: relative; }
+      .docProfile-about .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .docProfile-about .img .text {
+        position: absolute;
+        height: 95px;
+        width: 100%;
+        background: rgba(57, 78, 94, 0.5);
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        padding: 17px; }
+        .docProfile-about .img .text .name {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF; }
+        .docProfile-about .img .text .profile {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF; }
+    .docProfile-about .about-doctor .direction-list {
+      display: flex;
+      margin-bottom: 23px; }
+      .docProfile-about .about-doctor .direction-list__item {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3E3E3E;
+        margin-right: 30px; }
+        .docProfile-about .about-doctor .direction-list__item:last-child {
+          margin-right: 0; }
+        .docProfile-about .about-doctor .direction-list__item span {
+          font-weight: 500;
+          color: #4884A5; }
+    .docProfile-about .about-doctor .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height, or 125% */
+      letter-spacing: 0.02em;
+      color: #3E3E3E;
+      margin-bottom: 5px; }
+    .docProfile-about .about-doctor .description {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+      letter-spacing: 0.02em;
+      color: #8C8C8C;
+      margin-bottom: 15px; }
+    .docProfile-about .about-doctor .specialization-list {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px; }
+      .docProfile-about .about-doctor .specialization-list__item {
+        padding-left: 20px;
+        background: url("../../../img/profile/list.png") center left/10px 10px no-repeat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+        letter-spacing: 0.02em;
+        color: #8C8C8C; }
+    .docProfile-about .about-doctor .rating {
+      margin-bottom: 20px; }
+      .docProfile-about .about-doctor .rating .star {
+        display: inline-block;
+        position: relative;
+        width: 25px;
+        height: 25px;
+        background: none;
+        font-size: 25px; }
+        .docProfile-about .about-doctor .rating .star:before {
+          content: '\2605';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          color: #b9b6b6; }
+        .docProfile-about .about-doctor .rating .star.active:before {
+          content: '\2605';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          color: #2694a3; }
+    .docProfile-about .about-doctor .requestBtn {
+      display: inline-block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      padding: 17px 29px;
+      background: #2694A3;
+      border-radius: 2px; }
+  .docProfile-slider .box .text {
+    height: 56px;
+    background: #394E5E;
+    padding: 10px; }
+    .docProfile-slider .box .text .name {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      margin-bottom: 5px;
+      color: #FFFFFF; }
+    .docProfile-slider .box .text .profile {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF; }
+  .docProfile-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 25px; }
+  .docProfile-slider .owl-theme .owl-dots .owl-dot {
+    outline: none; }
+  .docProfile-slider .owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 5px;
+    background: rgba(38, 148, 163, 0.5); }
+  .docProfile-slider .owl-theme .owl-dots .owl-dot.active span, .docProfile-slider .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2694A3; }
+
+/*# sourceMappingURL=profile.css.map */

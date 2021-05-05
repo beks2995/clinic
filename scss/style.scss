@@ -1,0 +1,42 @@
+@import "../fonts/roboto/stylesheet.css";
+@import "../css/bootstrap-grid.min.css";
+@import "../css/jquery.fancybox.min.css";
+@import "../css/datepicker.min.css";
+@import "../css/owl.carousel.min.css";
+@import "../css/owl.theme.default.min.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  &:hover{
+    color: inherit;
+  }
+}
+ul{
+  list-style-type: none;
+}
+body{
+  font-family: 'Roboto';
+  opacity: 0;
+  transition: 0.7s all;
+}
+
+
+@import "header";
+@import "footer";
+@import "burger";
+@import "home";
+@import "services";
+@import "welcome";
+@import "departments";
+@import "specialists";
+@import "appointment";
+@import "feedback";
+@import "overlays";
+

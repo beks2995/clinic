@@ -1,0 +1,196 @@
+.footer {
+  background: #363E44;
+  &.active{
+    position: relative;
+    filter: blur(1px);
+    &:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #00000060;
+      z-index: 3;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &-main {
+    padding: 74px 0 107px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .clinic {
+        margin-right: 10px;
+        .logo {
+          img {
+            margin-bottom: 40px;
+          }
+        }
+
+        .address {
+          display: inline-block;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+          color: #E2E2E2;
+          margin-bottom: 27px;
+
+          span {
+            font-weight: 300;
+          }
+        }
+
+        .links {
+          display: inline-block;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 23px;
+          color: #E2E2E2;
+          margin-bottom: 27px;
+
+          span {
+            font-weight: 300;
+          }
+        }
+
+        li {
+          &:last-child {
+            .links {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
+      .columns {
+        margin-right: 15px;
+        &:last-child{
+          margin-right: 0;
+        }
+        .title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 23px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+          margin: 30px 0 40px;
+        }
+
+        .items {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.03em;
+          color: #FFFFFF;
+          margin-bottom: 15px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+          &:hover{
+            a{
+              color: #53B6C5;
+            }
+          }
+        }
+
+        .forms {
+          form {
+            position: relative;
+            height: 44px;
+            margin-bottom: 25px;
+            label{
+              width: 100%;
+              input{
+                width: 100%;
+                height: 44px;
+                padding: 14px 61px 14px 16px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: #4D5155;
+                border: none;
+                border-radius: 2px;
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.03em;
+                outline: none;
+                &:focus{
+                  outline: none;
+                }
+                &::-webkit-input-placeholder{
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 16px;
+                  letter-spacing: 0.03em;
+                  color: #A7A7A7;
+                }
+              }
+
+            }
+            button{
+              width: 45px;
+              height: 44px;
+              border: none;
+              border-left: 1px solid #646464;
+              outline: none;
+              position: absolute;
+              z-index: 2;
+              top: 0;
+              right: 0;
+              background: #4D5155;
+              -webkit-border-radius: 0 2px 2px 0;
+              -moz-border-radius: 0 2px 2px 0;
+              border-radius: 0 2px 2px 0;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .follow {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          color: #FFFFFF;
+          display: flex;
+
+          .social {
+            display: flex;
+
+            &__items {
+              margin-left: 25px;
+              transition: 0.7s;
+
+              &:hover {
+                transform: rotateY(360deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-rights {
+    padding: 37px 0;
+    border-top: 1px solid #C4C4C4;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

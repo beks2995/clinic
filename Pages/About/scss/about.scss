@@ -1,0 +1,235 @@
+.about {
+  padding: 50px 0 247px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #394E5E;
+    margin-bottom: 60px;
+  }
+
+  &__text {
+    max-width: 900px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #B7B7B7;
+    margin-bottom: 15px;
+
+    &:nth-child(3) {
+      max-width: 677px;
+    }
+
+    &:nth-child(5) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    color: #3E3E3E;
+    margin-bottom: 15px;
+  }
+
+  &__docBoard {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+    text-align: center;
+
+    color: #394E5E;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }
+
+  .row {
+    &.info {
+      margin-bottom: 60px;
+
+      .box {
+        text-align: center;
+
+        .current-box {
+          width: 84px;
+          height: 48px;
+          background: #2694A3;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto 10px;
+
+          &__item {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+          }
+        }
+
+        &__title {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 35px;
+          color: #3E3E3E;
+          margin-bottom: 5px;
+        }
+
+        &__text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          color: #8C8C8C;
+        }
+
+      }
+    }
+
+    &.board {
+      margin-bottom: 80px;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &__text {
+          background: #394E5E;
+          padding: 19px 22px;
+
+          .name {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.03em;
+
+            color: #FFFFFF;
+            margin-bottom: 8px;
+          }
+
+          .profile {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+
+    &.description {
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .text-box {
+        .title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 42px;
+          color: #3E3E3E;
+          margin-bottom: 25px;
+        }
+
+        .text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: 0.03em;
+          color: #B7B7B7;
+          margin-bottom: 15px;
+        }
+      }
+
+      &_1 {
+        .padding-helper{
+          padding: 0 0 0 15px;
+        }
+      }
+
+      &_2 {
+        .padding-helper{
+          padding: 0 15px 0 0;
+        }
+      }
+    }
+
+  }
+}
+
+.consult {
+  background: #394E5E;
+  box-shadow: 0px -15px 30px rgba(0, 0, 0, 0.1);
+  padding: 47px 0;
+  text-align: center;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    border: 1px solid #2694A3;
+    border-radius: 2px;
+    outline: none;
+    background: none;
+    padding: 11px 21px;
+    cursor: pointer;
+  }
+}
+

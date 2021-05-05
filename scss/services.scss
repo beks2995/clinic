@@ -1,0 +1,37 @@
+.services{
+  padding: 50px 0 15px;
+  .title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #394E5E;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .box{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    .img{
+      margin-right: 30px;
+    }
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 30px;
+      letter-spacing: 0.03em;
+      color: #3E3E3E;
+      margin-bottom: 10px;
+    }
+    &__descr{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.03em;
+      color: #A4A4A4;
+    }
+  }
+}
